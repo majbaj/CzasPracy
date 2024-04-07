@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czas pracy na budowie</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>>
+
+<body>
+      <header>
+         <h1>Czas pracy na budowie</h1>
+     </header>
+      <main>
+            <section class="search">
+                <input type="text" placeholder="podaj nazwisko">
+                <button>Sprawdź czas pracy</button>
+                <p class="error"></p>
+          </section>
+          <section class="app">
+             <h2 class="nazwisko"></h2>
+
+                <div class="budowa">
+                <div class="data">
+                       <!--img src="" alt=""-->
+                    <p class="kod_budowy"></p>
+                </div>
+                    <p class="budowa"></p>
+                </div>
+
+
+                <p> Rozpoczęcie pracy: <span class = "godz_pocz"></span></p>
+                <p> Zakończenie pracy: <span class = "godz_konc"></span></p>
+                <p> Budowa w następny dzień roboczy: <span class = "budowa_jutro"></span></p>
+
+            </section>
+      </main>
+           <footer>
+               <p>Projekt WSB Merito Gdańsk 2024</p>
+          </footer>
+
+           <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+           <script src="./script.js"></script>
+</body>
