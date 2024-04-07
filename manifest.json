@@ -1,0 +1,16 @@
+{
+    "name": "Czas pracy pracownika",
+    "short_name": "czasPracyAPP",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/PWA/",
+    "icons" : [
+        {
+            "src" : "./Pipe icon.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+  }
